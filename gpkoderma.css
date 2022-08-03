@@ -1,0 +1,99 @@
+body {
+    background-image: url(bg.2.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: auto;
+}
+
+.nav ul {
+    overflow: auto;
+}
+
+.nav li {
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0.0em 1em;
+    padding: 0.0em 1em;
+    border: 0.10em solid blue;
+    background-color: rgb(251, 214, 146);
+    border-radius: 2em;
+}
+
+.nav ul li a:hover {
+    background-color: rgb(243, 162, 14);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+
+.nav ul li a {
+
+    font-family: 'Libre Bodoni', serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+#i {
+    position: relative;
+    left: 45%;
+    height: 100px;
+    width: 10%;
+    right: 45%;
+    background-image: url('logo.jfif');
+    border: 0.10em solid rgb(9, 92, 234);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 90%;
+    border-radius: 20px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tapestry&display=swap');
+
+
+.h {
+    background-image: url(bg.jpg);
+    display: block;
+    border: 0.01rem solid rgb(236, 111, 9);
+    color: black;
+    margin: 2% 30%;
+    padding: 0.1% 1%;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.20em;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tapestry', cursive;
+    opacity: 0.80;
+}
+
+.form input {
+    width: 50%;
+    display: inline-block;
+    margin: 2% 2%;
+    padding: 1% 2%;
+
+}
+
+.link {
+    margin: 10px 20px;
+    padding: 5px 5px;
+}
+
+.link a {
+    color: white;
+
+}
+
+#time {
+    position: relative;
+    float: right;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+#time:hover {
+    float: left;
+
+}
